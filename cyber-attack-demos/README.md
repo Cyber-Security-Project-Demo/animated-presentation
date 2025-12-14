@@ -1,6 +1,6 @@
 # Cyber Attack Demos - Educational Tool
 
-An interactive educational application that demonstrates 5 common cyber attack types through animated presentations. Designed to help non-technical users understand cybersecurity vulnerabilities in an engaging and easy-to-understand way.
+An interactive educational application that demonstrates 6 common cyber attack types through animated presentations. Designed to help non-technical users understand cybersecurity vulnerabilities in an engaging and easy-to-understand way.
 
 ## 🎯 Attack Types Covered
 
@@ -28,6 +28,11 @@ An interactive educational application that demonstrates 5 common cyber attack t
 - Shows how search boxes can be tricked into deleting entire databases
 - Demonstrates the catastrophic impact of unvalidated input
 - Shows input validation and sanitization protection
+
+### 6. API Exploitation
+- Demonstrates how attackers convert secure POST requests to dangerous GET requests
+- Shows the vulnerability of improper API request method validation
+- Illustrates the importance of proper API security measures
 
 ## 🚀 Getting Started
 
@@ -65,7 +70,7 @@ The built files will be in the `dist` directory.
 
 ## 🎮 How to Use
 
-1. **Main Menu**: Choose from 5 different attack types
+1. **Main Menu**: Choose from 6 different attack types
 2. **Interactive Demos**: Each demo runs automatically with visual animations
 3. **Controls**: Use Play/Pause and Reset buttons to control the demonstration
 4. **Educational Content**: Each stage includes explanations suitable for non-technical audiences
@@ -105,7 +110,8 @@ cyber-attack-demos/
 │   │   ├── XSSDemo.tsx
 │   │   ├── IDORDemo.tsx
 │   │   ├── CSRFDemo.tsx
-│   │   └── CommandInjectionDemo.tsx
+│   │   ├── CommandInjectionDemo.tsx
+│   │   └── APIExploitationDemo.tsx
 │   ├── App.tsx             # Main application component
 │   ├── main.tsx            # Application entry point
 │   └── index.css           # Global styles
